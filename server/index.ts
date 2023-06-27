@@ -1,9 +1,8 @@
 import type { PluginFunction } from '@vuepress/core'
 
 export let removeHtmlExtensionPlugin = (): PluginFunction => () => ({
-  name: 'vuepress-plugin-remove-html-extension',
   extendsPage: page => {
-    let { path, frontmatter = {} } = page
+    let { frontmatter = {}, path } = page
 
     if (frontmatter.permalink) {
       return
@@ -17,4 +16,5 @@ export let removeHtmlExtensionPlugin = (): PluginFunction => () => ({
       page.path = path.slice(0, -1) + '/'
     }
   },
+  name: 'vuepress-plugin-remove-html-extension',
 })
