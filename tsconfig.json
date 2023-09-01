@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "nodenext",
+    "moduleResolution": "bundler",
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
