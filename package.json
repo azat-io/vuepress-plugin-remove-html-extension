@@ -1,7 +1,7 @@
 {
   "name": "vuepress-plugin-remove-html-extension",
   "description": "VuePress plugin for generating clean urls",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "type": "module",
   "keywords": [
     "clean-urls",
