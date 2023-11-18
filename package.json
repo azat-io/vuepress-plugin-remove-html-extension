@@ -39,7 +39,7 @@
   },
   "types": "./dist/index.d.ts",
   "dependencies": {
-    "@vuepress/core": "2.0.0-beta.68"
+    "@vuepress/core": "2.0.0-rc.0"
   },
   "devDependencies": {
     "@azat-io/eslint-config-typescript": "^1.6.0",
