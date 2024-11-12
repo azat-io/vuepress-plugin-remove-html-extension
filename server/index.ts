@@ -11,9 +11,9 @@ export let removeHtmlExtensionPlugin = (): PluginFunction => () => ({
     if (path === '/404.html') {
       page.path = '/404.html'
     } else if (path.endsWith('.html')) {
-      page.path = path.slice(0, -5) + ''
+      page.path = path.slice(0, -5)
     } else if (path.endsWith('/')) {
-      page.path = path.slice(0, -1) + '/'
+      page.path = `${path.slice(0, -1)}/`
     }
   },
   name: 'vuepress-plugin-remove-html-extension',
