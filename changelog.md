@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/azat-io/vuepress-plugin-remove-html-extension/compare/v1.19.0...v1.20.0) (2025-05-15)
+
+
+### Features
+
+* update vuepress to v2.0.0-rc.23 ([0091da5](https://github.com/azat-io/vuepress-plugin-remove-html-extension/commit/0091da533dfffd369b65fa30cb422126fdee1fed))
+
 ## [1.19.0](https://github.com/azat-io/vuepress-plugin-remove-html-extension/compare/v1.18.0...v1.19.0) (2025-04-30)
 
 
