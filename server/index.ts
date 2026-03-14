@@ -4,7 +4,7 @@ export function removeHtmlExtensionPlugin(): PluginFunction {
   return function () {
     return {
       extendsPage: page => {
-        let { frontmatter = {}, path } = page
+        let { frontmatter, path } = page
 
         if (frontmatter.permalink) {
           return
